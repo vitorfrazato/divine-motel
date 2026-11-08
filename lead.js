@@ -2,7 +2,7 @@
 // e, se LEADS_ENDPOINT estiver preenchido, grava na planilha (ver leads-apps-script.gs).
 (function () {
   const WHATSAPP = "5517992055344";
-  const LEADS_ENDPOINT = "https://script.google.com/macros/s/AKfycbzybJm-422ZkYM4LckOXS2LamWp_zJxVRmxrEmf_Jj_PVkBbAgeFfeptxEfGFpdPZr-/exec"; // App da Web do Google Apps Script (planilha DIVINE MOTEL - Leads e UTMs)
+  const LEADS_ENDPOINT = "https://script.google.com/macros/s/AKfycbyyhise9OBDWq9zYY4SY-sPKZbn2gbJOJe1k0rNg3_4oC9g6VvRyt98tcr4_IiKqCO3/exec"; // App da Web do Google Apps Script (planilha DIVINE MOTEL - Leads e UTMs)
   const LEAD_KEY = "divine_lead";
   const UTM_KEY = "divine_utm";
   const TRACK_KEYS = ["utm_source", "utm_medium", "utm_campaign", "utm_content", "utm_term", "fbclid", "gclid"];
