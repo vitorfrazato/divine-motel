@@ -108,7 +108,7 @@
   }
 
   function goWhatsApp(lead, msg) {
-    const text = `Olá! Sou ${lead.nome}. ${msg.replace(/^Olá!\s*/, "")}`;
+    const text = `Olá! Sou ${lead.nome} e vim pelo site. ${msg.replace(/^Olá!\s*/, "")}`.trim();
     const url = `https://wa.me/${WHATSAPP}?text=${encodeURIComponent(text)}`;
     const win = window.open(url, "_blank", "noopener");
     if (!win) location.href = url;
